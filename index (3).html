@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="home-content">
+            <img src="your-photo.jpg" alt="Your Photo" class="profile-photo">
+            <h1>Hello, I'm [Your Name]</h1>
+            <p>Web Developer | Software Engineer | Tech Enthusiast</p>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Write a detailed background about yourself, your education, and your professional experience here.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Node.js</li>
+            <!-- Add more skills as needed -->
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project Title</h3>
+            <p>Short description of the project.</p>
+            <a href="link-to-project" target="_blank">View Project</a>
+        </div>
+        <!-- Add more projects as needed -->
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Feel free to reach out to me via <a href="mailto:your-email@example.com">email</a>.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 [Your Name]. All rights reserved.</p>
+    </footer>
+
+    <div id="project-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3 id="modal-title"></h3>
+            <p id="modal-description"></p>
+            <a id="modal-link" href="" target="_blank">View Project</a>
+        </div>
+    </div>
+</body>
+</html>
